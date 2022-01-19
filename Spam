@@ -1,0 +1,9 @@
+pkg update && pkg upgrade
+pkg install git
+pkg install python
+pip install requests
+pip install futures
+git clone https://github.com/loyalitas/4145/premium
+cd Premium
+git pull
+python Prem.py
